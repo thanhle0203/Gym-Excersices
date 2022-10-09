@@ -18,7 +18,6 @@ const Home = () => {
                     <ExerciseListHeading />
                 </div>
             </div>
-
             
             <div className='col'>
                 <div className='exercise__detail'>
