@@ -1,7 +1,7 @@
 
 1. Change the current working directory to your location
 
-2. Type git cloe, and then paste the URL you copied earlier.
+2. Type git clone, and then paste the URL you copied earlier.
 $ git clone https://github.com/thanhle0203/Gym-Excersices.git
 
 3. Press Enter to create your local clone.
