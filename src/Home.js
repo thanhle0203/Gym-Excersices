@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import ExerciseList from './components/ExerciseList'
 import ExerciseListHeading from './components/ExerciseListHeading'
 import SearchExercise from './components/SearchExercise'
-import SingleExersice from './components/SingleExersice'
 
 
 const Home = () => {
@@ -23,8 +22,7 @@ const Home = () => {
             
             <div className='col'>
                 <div className='exercise__detail'>
-                   {/*<ExerciseList /> */}
-                   <SingleExersice />
+                   <ExerciseList /> 
                 </div>
                         
             </div>

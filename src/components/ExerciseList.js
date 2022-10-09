@@ -20,12 +20,12 @@ export default class ExerciseList extends React.Component {
     render() {
         return (
             
-            <div className='ListExercise card' >
+            <div className='' >
                 {this.state.exercisesName.map( (exercise) => 
                     
-                        <div className='card'>
+                        <div className='ListExercise card'>
                             <h5 className='card-title'>{exercise.name}</h5>
-                            <video width="400" height="300" controls>
+                            <video width="450" height="350" controls>
                                 <source src={exercise.video} type="video/mp4" />
                             </video>
                             <div className='card-body'>

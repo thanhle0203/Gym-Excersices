@@ -23,7 +23,7 @@ export default class ExerciseListHeading extends React.Component {
             
                 {this.state.exercisesName.map( (exercise) => 
                     <di>
-                        <Link to={"/exercises/:id"} ><p>{exercise.name}</p></Link>
+                        <Link to={"/exercises/:id"} ><h5>{exercise.name}</h5></Link>
                     </di>
                 
                 )}
